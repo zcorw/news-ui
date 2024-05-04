@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import parser from './parser'
 import Steps from './components/Steps'
+import NewsTextarea from './components/NewsTextarea';
+import styles from './App.module.scss';
 
 function App() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -16,12 +18,12 @@ function App() {
   }
   const [step] = useState(1)
   return (
-    <div className="App">
+    <div className={styles.app}>
       <header className="App-header">
         <Steps step={step} />
       </header>
-      <div className='App-body'>
-        
+      <div className={styles.body}>
+        <NewsTextarea />
       </div>
     </div>
   );

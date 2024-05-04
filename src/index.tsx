@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "material-design-icons-iconfont/dist/material-design-icons.min.css";
+import dayjs from "dayjs";
+import customParseFormat from 'dayjs/plugin/customParseFormat';
+
+dayjs.extend(customParseFormat);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

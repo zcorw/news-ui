@@ -11,6 +11,7 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "antd": "^5.17.0",
+    "dayjs": "^1.11.11",
     "material-design-icons-iconfont": "^6.7.0",
     "node-sass": "^9.0.0",
     "react": "^18.3.1",
